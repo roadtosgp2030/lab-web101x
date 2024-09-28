@@ -1,0 +1,33 @@
+body {
+    background-color: red;
+    color: #393c3d;
+}
+
+.container {
+    width: 800px;
+    margin: 0 auto;
+}
+
+.navigation {
+    display: flex;
+    justify-content: space-between;
+    background: green;
+    padding: 6px 0;
+}
+
+.hero h1 {
+    font-size: 44px;
+}
+
+.hero p {
+    margin: 20px 0;
+}
+
+.hero button {
+    border-radius: 12px;
+    color: #fff;
+    font-weight: 600;
+    padding: 12px 24px;
+    background-color: #e2731f;
+    border: none;
+}
