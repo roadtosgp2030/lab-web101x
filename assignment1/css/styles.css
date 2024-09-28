@@ -84,9 +84,15 @@ tr td:nth-child(1) {
 }
 
 .content {
-    line-height: 1.5;
+    margin-top: 1rem;
+    line-height: 1.8;
     position: relative;
     text-align: justify;
+}
+
+ol.content {
+    padding: 0;
+    list-style-position: inside;
 }
 
 .content p {
